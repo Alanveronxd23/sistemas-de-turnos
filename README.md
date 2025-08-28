@@ -55,6 +55,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 ├── App.jsx
 └── index.jsx
 
+
 ## Instalación
 
 1. Clona el repositorio:
