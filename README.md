@@ -9,11 +9,11 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 ## 📌 Tecnologías utilizadas
 
 ### Frontend
-- [React](https://react.dev/)  
-- [React Router](https://reactrouter.com/)  
+- React  
+- React Router
 - Context API (manejo de sesión y turnos)  
-- Axios / Fetch (para comunicación con backend)  
-- TailwindCSS / Bootstrap (para estilos, opcional)
+- Fetch (para comunicación con backend)  
+- Css / Bootstrap (para estilos, opcional)
 
 ### Backend
 - Node.js + Express  
