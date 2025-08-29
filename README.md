@@ -72,11 +72,8 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 ├── 📂routes/ # Definición de rutas
 
 │ └── AppRouter.jsx
-
 │
-
 ├── App.jsx
-
 └── index.jsx
 
 ## Instalación
