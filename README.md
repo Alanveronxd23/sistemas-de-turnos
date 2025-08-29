@@ -29,51 +29,54 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 
 ├── 📂components/ # Componentes reutilizables
 
-│ ├── Footer.jsx
+│├── Footer.jsx
 
-│ ├── Navbar.js 
+│├── Navbar.js 
 
-│ ├── Footer.jsx
+│├── Footer.jsx
 
-│ ├── TurnoCard.jsx
+│├── TurnoCard.jsx
 
-│ ├── UserForm.jsx
+│├── UserForm.jsx
 
-│ └── HorarioForm.jsx
+│└── HorarioForm.jsx
 │
 
 ├── 📂pages/ # Páginas principales
 
-│ ├── Home.jsx
+│├── Home.jsx
 
-│ ├── Login.jsx
+│├── Login.jsx
 
-│ ├── Register.jsx
+│├── Register.jsx
 
-│ ├── MisTurnos.jsx
+│├── MisTurnos.jsx
 
-│ ├── ReservarTurno.jsx
+│├── ReservarTurno.jsx
 
-│ ├── PsicologoAgenda.jsx
+│├── PsicologoAgenda.jsx
 
-│ └── AdminUsuarios.jsx
+│└── AdminUsuarios.jsx
  
 
 ├── 📂context/ # Context API
 
-│ ├── AuthContext.jsx
+│├── AuthContext.jsx
 
-│ └── TurnosContext.jsx
+│└── TurnosContext.jsx
 
 ├── 📂services/ # Llamadas al backend
 
-│ └── api.js
+│└── api.js
 
 ├── 📂routes/ # Definición de rutas
 
-│ └── AppRouter.jsx
+│└── AppRouter.jsx
+
 │
+
 ├── App.jsx
+
 └── index.jsx
 
 ## Instalación
