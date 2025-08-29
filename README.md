@@ -27,6 +27,36 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 
 📂src/
 
+├── components/ # Componentes reutilizables
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── TurnoCard.jsx
+│ ├── UserForm.jsx
+│ └── HorarioForm.jsx
+│
+├── pages/ # Páginas principales
+│ ├── Home.jsx
+│ ├── Login.jsx
+│ ├── Register.jsx
+│ ├── MisTurnos.jsx
+│ ├── ReservarTurno.jsx
+│ ├── PsicologoAgenda.jsx
+│ └── AdminUsuarios.jsx
+│
+├── context/ # Context API
+│ ├── AuthContext.jsx
+│ └── TurnosContext.jsx
+│
+├── services/ # Llamadas al backend
+│ └── api.js
+│
+├── routes/ # Definición de rutas
+│ └── AppRouter.jsx
+│
+├── App.jsx
+└── index.jsx
+>>>>>>> 09b4974c8cd1bc85e08979e5c35bd7b97553fdfc
+
 ├── components/ # Componentes reutilizables 
 │ ├── Navbar.jsx 
 │ ├── Footer.jsx 
