@@ -26,6 +26,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 ## 📂 Estructura del proyecto
 
 📂src/
+
 ├── components/ # Componentes reutilizables
 │ ├── Navbar.jsx
 │ ├── Footer.jsx
