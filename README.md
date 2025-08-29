@@ -70,7 +70,6 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 │└── api.js
 
 ├── 📂routes/ # Definición de rutas
-
 │└── AppRouter.jsx
 
 ├── App.jsx
