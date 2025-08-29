@@ -12,9 +12,11 @@ export default function Footer() {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             Facebook
           </a>
+          <br></br>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
             Instagram
           </a>
+          <br></br>
           <a href="mailto:contacto@consultorio.com" className="hover:text-white">
             contacto@consultorio.com
           </a>

@@ -5,7 +5,7 @@ function App() {
     <div className="flex flex-col min-h-screen">
       {/* Contenido principal */}
       <main className="flex-grow">
-        {/* Aquí irían tus páginas */}
+        {/* Aquí van las rutas */}
       </main>
 
       {/* Footer */}
