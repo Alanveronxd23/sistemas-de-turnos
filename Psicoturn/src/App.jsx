@@ -1,11 +1,17 @@
-import './App.css'
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to Psicoturn</h1>
+    <div className="flex flex-col min-h-screen">
+      {/* Contenido principal */}
+      <main className="flex-grow">
+        {/* Aquí irían tus páginas */}
+      </main>
+
+      {/* Footer */}
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

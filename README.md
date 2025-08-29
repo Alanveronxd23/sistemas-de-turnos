@@ -29,9 +29,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 
 ├── 📂components/ # Componentes reutilizables
 
-│├── Footer.jsx
-
-│├── Navbar.js 
+│├── Navbar.jsx
 
 │├── Footer.jsx
 
