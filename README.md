@@ -27,7 +27,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 
 📂src/
 
-├── components/ # Componentes reutilizables
+├── 📂components/ # Componentes reutilizables
 
 │ ├── Footer.jsx
 
@@ -42,7 +42,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 │ └── HorarioForm.jsx
 │
 
-├── pages/ # Páginas principales
+├── 📂pages/ # Páginas principales
 
 │ ├── Home.jsx
 
@@ -59,17 +59,17 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 │ └── AdminUsuarios.jsx
  
 
-├── context/ # Context API
+├── 📂context/ # Context API
 
 │ ├── AuthContext.jsx
 
 │ └── TurnosContext.jsx
 
-├── services/ # Llamadas al backend
+├── 📂services/ # Llamadas al backend
 
 │ └── api.js
 
-├── routes/ # Definición de rutas
+├── 📂routes/ # Definición de rutas
 
 │ └── AppRouter.jsx
 
