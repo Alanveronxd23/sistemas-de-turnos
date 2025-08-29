@@ -1,5 +1,5 @@
 
-# 🧠 PsicoTurnos
+# 🧠 PsicoTurns
 
 Sistema web para la gestión de turnos en un consultorio de psicología.  
 Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programación III (TUP - UTN FRRO).  
@@ -70,6 +70,7 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 │└── api.js
 
 ├── 📂routes/ # Definición de rutas
+
 │└── AppRouter.jsx
 
 ├── App.jsx
