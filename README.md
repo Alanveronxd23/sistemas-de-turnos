@@ -73,8 +73,6 @@ Proyecto desarrollado como **Trabajo Práctico Integrador (TPI)** de Programaci�
 
 │└── AppRouter.jsx
 
-│
-
 ├── App.jsx
 
 └── index.jsx
