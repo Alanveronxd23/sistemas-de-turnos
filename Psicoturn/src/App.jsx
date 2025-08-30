@@ -1,14 +1,10 @@
 import Footer from "./components/footer.jsx";
-
+import Header from "./components/header.jsx";
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Contenido principal */}
-      <main className="flex-grow">
-        {/* Aquí van las rutas */}
-      </main>
-
-      {/* Footer */}
+      {/* Main content can go here */}
+      <Header />
       <Footer />
     </div>
   );
