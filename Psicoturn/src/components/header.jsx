@@ -1,10 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
             <a className="navbar-brand" href="/">
-            <img src="https://i.postimg.cc/cCnYyK3s/Chat-GPT-Image-29-ago-2025-11-04-14-1.png" alt="logo" witch={75} height={55} />
+            <img src="https://i.postimg.cc/cCnYyK3s/Chat-GPT-Image-29-ago-2025-11-04-14-1.png" alt="logo" witch="20"height="20"/>
             Psicoturn</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
