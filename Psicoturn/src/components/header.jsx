@@ -1,18 +1,18 @@
+import { Link } from "react-router-dom";
 import "./css/header.css";
 
 const Header = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
     <div className="container-fluid">
-      <a className="navbar-brand d-flex align-items-center" href="/">
+      <Link className="navbar-brand d-flex align-items-center" to="/">
         <img
           className="logo me-2"
           src="https://i.postimg.cc/cJDCH0RV/Consultorio-Ver-n.png"
           alt="Logo Psicoturn"
         />
         Psicoturno
-      </a>
+      </Link>
 
-      {/* Botón hamburguesa */}
       <button
         className="navbar-toggler"
         type="button"
@@ -25,23 +25,22 @@ const Header = () => (
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      {/* Menú de navegación */}
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/">Inicio</a>
+            <Link className="nav-link" to="/">Inicio</Link>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/about">Informacion</a>
+            <Link className="nav-link" to="/informacion">Información</Link>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/about">Acerca de</a>
+            <Link className="nav-link" to="/about">Acerca de</Link>
           </li>
           <li className="nav-item mx-2">
-            <a className="nav-link" href="/contact">Contacto</a>
+            <Link className="nav-link" to="/contact">Contacto</Link>
           </li>
           <li className="nav-item mx-2">
-            <a href="/login" className="btn btn-light">Iniciar sesión</a>
+            <Link to="/login" className="btn btn-light">Iniciar sesión</Link>
           </li>
         </ul>
       </div>
