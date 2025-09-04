@@ -4,15 +4,16 @@ import Header from "./components/header.jsx";
 import Informacion from "./components/Pages/informacion.jsx";
 import Contact from "./components/Pages/contacto.jsx";
 
-function App() {
+function App() 
+{
   return (
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/informacion" element={<Informacion />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-            <Footer />
+      <Footer />
     </BrowserRouter>
   );
 }
