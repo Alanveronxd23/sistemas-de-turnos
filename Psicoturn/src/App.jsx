@@ -1,8 +1,8 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Footer from "./components/footer.jsx";
-import Header from "./components/header.jsx";
-import Informacion from "./components/Pages/informacion.jsx";
-import Contact from "./components/Pages/contacto.jsx";
+import Header from "./components/Header.jsx";
+import Informacion from "./components/Pages/Informacion.jsx";
+import Contact from "./components/Pages/Contact.jsx";
+import About from "./components/Pages/about.jsx";
 
 function App() 
 {
@@ -12,8 +12,8 @@ function App()
       <Routes>
         <Route path="/informacion" element={<Informacion />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
