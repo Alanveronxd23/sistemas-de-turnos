@@ -4,3 +4,11 @@ margin: "40px auto";
 padding: 24; 
 font-Family: "sans-serif";
 }
+  a.whatsapp-float 
+{
+  background-color: #3be02c;
+  color: rgb(255, 253, 253);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
