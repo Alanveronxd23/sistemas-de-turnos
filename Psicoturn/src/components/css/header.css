@@ -1,21 +1,30 @@
 
-
 .bg-primary
 {
    background-color: rgb(255, 255, 255) !important;
    height: 60px;
 }
+.container-fluid
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+   /* padding: 0; */
+}
 img.logo
 {
     width: 40px;
     height: 40px;
+    margin: 0;
 }
 a.navbar-brand
 {
     font-weight: bold;
     font-size: 20px;
     color: rgb(0, 0, 0) !important;
-    margin-right: -350px;
+    margin: 0;
+    padding: 0;
 }
 
 a.nav-link
@@ -26,9 +35,51 @@ a.nav-link:hover
 {
     color: rgba(0, 0, 0, 0.808) !important;
     text-decoration: underline;
+    animation: subrayado 0.3s linear infinite;
+}
+.nav-item 
+{
+  display: ruby;
 }
 a.btn-light
 {
     color: rgb(0, 0, 0) !important;
-    background-color: cornsilk !important;
+    background-color: rgb(104, 164, 255) !important;
+    padding: 0px 20px;
+    border-radius: 8px;
 }
+@keyframes subrayado
+    {
+      0% 
+      {
+        text-decoration-color: red;
+      }
+      14% 
+      {
+        text-decoration-color: orange;
+      }
+      28% 
+      {
+        text-decoration-color: yellow;
+      }
+      42% 
+      {
+        text-decoration-color: green;
+      }
+      57% 
+      {
+        text-decoration-color: cyan;
+      }
+      71% 
+      {
+        text-decoration-color: blue;
+      }
+      85% 
+      {
+        text-decoration-color:violet;
+      }
+      100% 
+      {
+        text-decoration-color: red;
+      }
+    }

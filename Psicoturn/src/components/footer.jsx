@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope, faLocationDot, faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-
+import "./css/Footer.css";
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light pt-4">
+    <footer>
       {/* Mapa */}
-      <div className="container-fluid p-0">
+      <div className="container-fluid p-0}">
         <iframe
           title="Ubicación - Rosario, Santa Fe"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83338.48505592183!2d-60.73533572303362!3d-32.96337202583404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d528b38d%3A0xce854940e3f7e114!2sEntre%20R%C3%ADos%20%26%20Zeballos%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e1!3m2!1ses!2sar!4v1749477230477!5m2!1ses!2sar"
