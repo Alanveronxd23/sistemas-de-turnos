@@ -1,0 +1,22 @@
+form
+{
+    background-color:whitesmoke;
+    border-color: black;
+}
+
+button.btn.btn-primary
+{
+    background-color: rgb(255, 104, 104);
+    border-color: rgba(255, 0, 0, 0.274);
+}
+button.btn.btn-primary:hover
+{
+    background-color: rgb(253, 81, 81);
+    border-color: rgba(255, 104, 104, 0.432);
+    color: rgb(255, 255, 255);
+}
+input.form-control:focus
+{
+    box-shadow: none;
+    border-color: rgb(255, 104, 104);
+}

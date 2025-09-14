@@ -1,11 +1,11 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header.jsx";
-import Informacion from "./components/Pages/Informacion.jsx";
-import Contact from "./components/Pages/Contact.jsx";
-import About from "./components/Pages/About.jsx";
+import Informacion from "./Pages/Informacion.jsx";
+import Contact from "./Pages/Contact.jsx";
+import About from "./Pages/About.jsx";
 
-function App() 
-{
+function App() {
+
   return (
     <BrowserRouter>
       <Header />

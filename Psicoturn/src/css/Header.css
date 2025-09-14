@@ -44,7 +44,7 @@ a.nav-link:hover
 a.btn-light
 {
     color: rgb(0, 0, 0) !important;
-    background-color: rgb(104, 164, 255) !important;
+    background-color: rgb(255, 104, 104) !important;
     padding: 0px 20px;
     border-radius: 8px;
 }
