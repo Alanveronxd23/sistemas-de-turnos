@@ -33,7 +33,7 @@ const Header = () => (
         <Link className="nav-link d-flex align-items-center" to="/contact">Contacto</Link>
       </li>
       <li className="nav-item">
-        <Link className="btn btn-light d-flex align-items-center" to="/login">Iniciar sesión</Link>
+        <Link className="btn btn-light d-flex align-items-center" to="/Login">Iniciar sesión</Link>
       </li>
     </ul>
       </div>
