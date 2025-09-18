@@ -21,25 +21,32 @@ const Contact = () => {
   const validate = () => {
     let newErrors = {};
 
-    if (!values.name.trim()) {
+    if (!values.name.trim()) 
+    {
       newErrors.name = "El nombre es obligatorio";
-    } else if (values.name.trim().length < 2) {
+    } else if (values.name.trim().length < 3) 
+    {
       newErrors.name = "El nombre debe tener al menos 2 caracteres";
     } else if (!/^[a-zA-ZÁÉÍÓÚÑáéíóúñ\s]+$/.test(values.name)) {
       newErrors.name = "El nombre solo puede contener letras y espacios";
     }
 
-    if (!values.email.trim()) {
+    if (!values.email.trim()) 
+    {
       newErrors.email = "El email es obligatorio";
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) {
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(values.email)) 
+    {
       newErrors.email = "Ingrese un email válido";
     }
 
-    if (!values.message.trim()) {
+    if (!values.message.trim()) 
+    {
       newErrors.message = "El mensaje es obligatorio";
-    } else if (values.message.trim().length < 10) {
+    } else if (values.message.trim().length < 10) 
+    {
       newErrors.message = "El mensaje debe tener al menos 10 caracteres";
-    } else if (values.message.trim().length > 200) {
+    } else if (values.message.trim().length > 200) 
+    {
       newErrors.message = "El mensaje no puede superar los 200 caracteres";
     }
 
@@ -71,7 +78,7 @@ const Contact = () => {
   return (
     <div className="container mt-5" data-aos="fade-up">
       <form onSubmit={handleForm} className="card p-4 shadow" data-aos="fade-up">
-        <h1 className="mb-4 text-center" data-aos="fade-up">Contacto</h1>
+        <h1 className="mb-4 text-center" data-aos="fade-up">Contactanos</h1>
 
         <div className="mb-3" data-aos="fade-up">
           <label htmlFor="name" className="form-label">Nombre</label>
